@@ -17,7 +17,7 @@ section{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #7e94e3;
+    background: #f4f4f7;
 }
 section .box{
     position: absolute;
@@ -73,7 +73,7 @@ section i{
 }
 section i:nth-child(even){
     background: transparent;
-    border: 1px solid #ebe8e8;
+    border: 1px solid #443a3a;
 }
 @keyframes animate{
     0%{
