@@ -7,15 +7,17 @@
     box-sizing: border-box;
     font-family: 'Satisfy', cursive;
 }
+
 body{
     overflow: hidden;
+   
 }
 section{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #f1f1f1;
+    background-image: url(background.jpg);
 }
 section .box{
     position: absolute;
@@ -65,13 +67,13 @@ section .box .circle h2{
 
 section i{
     position: absolute;
-    background: #ff2a2a;
+    background: #b6ecef;
     border-radius: 100%;
     animation: animate  linear infinite;
 }
 section i:nth-child(even){
     background: transparent;
-    border: 1px solid #ff2a2a;
+    border: 1px solid #ebe8e8;
 }
 @keyframes animate{
     0%{
