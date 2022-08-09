@@ -17,7 +17,7 @@ section{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(background.jpg);
+    background: #7e94e3;
 }
 section .box{
     position: absolute;
@@ -61,13 +61,13 @@ section .box .circle h2{
     position: absolute;
     z-index: 2;
     font-size: 4em;
-    color: #ff2a2a;
+    color: #fb03b9;
     text-align: center;
 }
 
 section i{
     position: absolute;
-    background: #b6ecef;
+    background: #f70b98;
     border-radius: 100%;
     animation: animate  linear infinite;
 }
